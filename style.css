@@ -1,0 +1,89 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('fence.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-image: url('sky.jpg');
+    background-size: cover;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 15px 25px rgba(45, 14, 3, 0.851);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    font-family: 'Rubik Puddles', system-ui;
+    text-align: center;
+    font-size: 40px;
+    color: #edebda;
+    margin-bottom: 25px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+input.error {
+    border-color: #a40919;
+    background-color: #fff8f8;
+}
+
+.error-message {
+    color: #a40919;
+    font-size: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #563505;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #dae724;
+    color: rgb(234, 232, 236);
+}
